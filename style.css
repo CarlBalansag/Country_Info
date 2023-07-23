@@ -1,0 +1,209 @@
+
+/* 
+.bg {
+animation:slide 3s ease-in-out infinite alternate;
+background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+bottom:0;
+left:-50%;
+opacity:.5;
+position:fixed;
+right:-50%;
+top:0;
+z-index:-1;
+}
+
+.bg2 {
+animation-direction:alternate-reverse;
+animation-duration:4s;
+}
+
+.bg3 {
+animation-duration:5s;
+}
+
+h1 {
+font-family:monospace;
+}
+
+@keyframes slide {
+0% {
+    transform:translateX(-25%);
+}
+100% {
+    transform:translateX(25%);
+}
+} */
+
+
+
+
+html {
+    width: 445px;
+    height: 500px;
+    background-color: #040D21;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    width: 390px;
+    height: 450px;
+    margin: 18px;
+    margin-top: 25px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+
+h1, h3{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    width: 50%;
+    padding-left: 20px;
+}
+h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 90px;
+    padding-top: 2px;
+}
+
+
+.search{
+    padding-left: 70px;
+    padding-top: 35px;
+}
+form.example input[type=text] {
+    font-size: 10px;
+    border: 1px solid grey;
+    float: left;
+    width: 150px;
+    height: 2px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 11px;
+}
+
+/* Style the submit button */
+form.example button {
+    float: left;
+    border: none;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 7px 10px 10px 10px;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p{
+    color: white;
+}
+
+img{
+    color: white;
+}
+
+.p_tag{
+    padding-left: 26%; /*Padding for pop, land size, currency */
+    font-size: 13.5px;
+    margin: 0px;
+    margin-top: 5px;
+}
+img {
+    width: 120px;
+    padding-left: 85px;  /*Padding for flag */
+}
+
+.country{
+    padding-left: 40%; /* padding for country name */
+    font-size: 15px;
+}
+
+span{
+    color: #B46CF8;
+}
+
+.rating {
+    font-size: 13px;
+    margin:0;
+    padding-bottom: 10px;
+}
+
+.rating button {
+    margin-left: 87px;
+    margin-top: 10px;
+}
+
+.rating p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin: 10px;
+
+}
+.rating {
+    width: 300px;
+    margin: 0px;
+    margin-left: -10px;
+    padding: 0;
+    padding-left: 12px;
+    margin-top: -5px;
+}
+
+@keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+    100% { 
+    }
+}
+
+.country_info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 0px;
+    width: 317px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/* Change .rating margin moves rating box up  
+
+
+fix wirds dragging to the left*/
